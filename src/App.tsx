@@ -83,8 +83,8 @@ function App() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="m-2 p-6 border-2 border-gray-700 bg-gray-600 rounded w-96 bg-white flex flex-col">
+    <div className="flex items-center justify-center min-h-screen bg-gray-600">
+      <div className="m-2 p-6 border-2 border-gray-700 bg-gray-700 rounded w-96 bg-white flex flex-col">
         <form className="flex flex-col flex-1" onSubmit={onsubmit}>
           <div className="text-sm text-black text-right mb-4">
             {currentStepIndex + 1} / {steps.length}
